@@ -7,3 +7,4 @@ public_html/wp-config.php   FLX_DB_HOST     DB_HOST
 
 [deploy]
 chmod o+r public_html/.htaccess
+chmod o+rwx -Rf public_html/wp-content/
